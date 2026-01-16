@@ -48,4 +48,9 @@ $ gpg config commit.gpgsign true
 
 GitHub → Settings → SSH and GPG keys → New GPG key
 
+## commit 하기
+
+일반적으로 `gpg config commit.gpgsign true` 인 경우, `commit`을 하면 자동으로 서명이 이루어짐.
+
+`false`로 된 경우엔 `commit -S` 로 `-S`옵션을 주면 된다.
 
