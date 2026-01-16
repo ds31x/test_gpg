@@ -32,9 +32,8 @@ $ gpg --list-secret-keys --keyid-format=long
 
 public key
 ```
-$ gpg --list-keys --
+$ gpg --list-keys
 ```
-* 서명용 subkey의 key id를 확인할 것.
 
 ## git에 GPG key 등록
 
@@ -44,8 +43,6 @@ $ gpg config commit.gpgsign true
 ```
 
 * `.git/config` 에 관련 설정이 기록됨.
-* `<GPG_KEY_ID>` : 서명용 subkey
-
 
 ## GigHub에 GPG public key 등록
 
