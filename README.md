@@ -42,9 +42,10 @@ $ gpg config user.signingkey <GPG_KEY_ID>
 $ gpg config commit.gpgsign true
 ```
 
+* `.git/config` 에 관련 설정이 기록됨.
+
 ## GigHub에 GPG public key 등록
 
 GitHub → Settings → SSH and GPG keys → New GPG key
-
 
 
